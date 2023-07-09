@@ -1,5 +1,5 @@
 {% set name = "sen2nbar" %}
-{% set version = "2023.3.0" %}
+{% set version = "2023.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sen2nbar-{{ version }}.tar.gz
-  sha256: 695f2840bdf768f85675ac242f5e0a66c639ac2b25cb8041d42d758ee6044d22
+  sha256: 5d1a5ce84f5ed5f4e97e3c4ef9501eedfbc73aa61934f3bc21852c4b4d569c7a
 
 build:
   noarch: python
