@@ -1,5 +1,5 @@
 {% set name = "sen2nbar" %}
-{% set version = "2023.8.1" %}
+{% set version = "2024.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sen2nbar-{{ version }}.tar.gz
-  sha256: f1d2a37b3046938cc2e6f3e0c6ab4aa17eb2f16ba8d5face6a8b12da7ab3af82
+  sha256: 4ed08e0c229765d36360c15172e8bd7cf99ef84c006df0a3fb8d15de6abd3dc1
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - cubo >=2023.7.2
+    - cubo >=2024.6.0
     - pystac
     - rasterio >=1.3.6
     - requests
